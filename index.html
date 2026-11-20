@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#f7f9fc">
+  <meta name="description" data-i18n-content="meta.homeDesc" content="Academic homepage of Zhilin Xue, an undergraduate researcher interested in geospatial AI, urban environments, and emerging AI methods.">
+  <meta property="og:title" content="Zhilin Xue · Academic Homepage">
+  <meta property="og:description" content="Geospatial AI, urban intelligence, and explorations in artificial intelligence.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://cola2233.github.io/">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+  <script src="assets/translations.js" defer></script>
+  <script src="assets/main.js" defer></script>
+  <title>Zhilin Xue · Academic Homepage</title>
+</head>
+<body data-page="home">
+  <a class="skip-link" href="#main" data-i18n="ui.skip">Skip to content</a>
+  <div class="reading-progress" aria-hidden="true" id="reading-progress"></div>
+  <header class="site-header" id="top">
+    <div class="wrap nav-wrap">
+      <a href="index.html" class="logo-lockup" aria-label="Zhilin Xue homepage" data-internal-link>
+        <span class="brand-mark">ZX<span class="brand-dot">.</span></span>
+        <span class="brand-name">ZHILIN XUE</span>
+      </a>
+      <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+        <a href="#about" data-i18n="nav.about">About</a>
+        <a href="#interests" data-i18n="nav.interests">Interests</a>
+        <a href="#projects" data-i18n="nav.projects">Research</a>
+        <a href="#academic" data-i18n="nav.academic">Academic</a>
+        <a href="cv.html" data-internal-link data-i18n="nav.cv">CV</a>
+      </nav>
+      <div class="header-actions">
+        <div class="lang-switch" role="group" aria-label="Website language">
+          <button type="button" data-lang="en" aria-pressed="true">EN</button>
+          <span aria-hidden="true" class="lang-separator">/</span>
+          <button type="button" data-lang="zh" aria-pressed="false">中文</button>
+        </div>
+        <button type="button" class="mobile-menu" id="menu-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero section-padding" aria-labelledby="hero-title">
+      <div class="wrap hero-grid">
+        <div class="hero-content">
+          <div class="eyebrow"><span class="pulse-dot" aria-hidden="true"></span><span data-i18n="hero.eyebrow">UNDERGRADUATE RESEARCHER · GEOAI / AI</span></div>
+          <h1 id="hero-title"><span data-i18n="hero.hello">Hello, I'm</span><br><span class="display-name">Zhilin Xue<span class="full-stop">.</span></span></h1>
+          <div class="hero-rule"></div>
+          <p class="hero-lead" data-i18n="hero.lead">Understanding our changing cities through data, and exploring what intelligent systems can learn about space.</p>
+          <p class="hero-intro" data-i18n="hero.intro">I am an undergraduate researcher at Changchun Normal University, working at the intersection of remote sensing, geospatial analysis, and interpretable machine learning. My next step is to explore deeper methods in spatial intelligence and artificial intelligence.</p>
+          <div class="hero-cta">
+            <a href="#projects" class="button button-primary"><span data-i18n="hero.explore">Explore my research</span><span aria-hidden="true">↗</span></a>
+            <a href="cv.html" class="button button-outline" data-internal-link><span data-i18n="hero.cv">View academic CV</span><span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="hero-meta">
+            <span class="meta-item"><svg viewBox="0 0 24 24" aria-hidden="true" width="17" height="17"><path d="M3 21V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v16M7 21v-6h10v6M7 7h2m6 0h2M7 11h2m6 0h2" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg><span data-i18n="hero.affiliation">Changchun Normal University</span></span>
+            <span class="meta-item"><span aria-hidden="true" class="tiny-ring"></span><span data-i18n="hero.field">Geographical Science</span></span>
+          </div>
+        </div>
+        <div class="hero-art" aria-label="Conceptual cartographic illustration">
+          <div class="art-frame">
+            <div class="visual-topbar"><span class="visual-kicker">SPATIAL / INTELLIGENCE</span><span class="visual-coordinates">43° N &nbsp; 125° E</span></div>
+            <svg class="art-map" viewBox="0 0 540 510" role="img" aria-label="Abstract illustration of a city map with geospatial grid, thermal areas and connected nodes">
+              <defs>
+                <pattern id="mapgrid" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M34 0H0V34" fill="none" stroke="#d5e2f0" stroke-width="0.75"/></pattern>
+                <radialGradient id="heatA"><stop offset="0%" stop-color="#ffa96a" stop-opacity=".8"/><stop offset="64%" stop-color="#ffcaa1" stop-opacity=".32"/><stop offset="100%" stop-color="#ffcaa1" stop-opacity="0"/></radialGradient>
+                <radialGradient id="heatB"><stop offset="0%" stop-color="#5d8ffb" stop-opacity=".55"/><stop offset="100%" stop-color="#a8c8ff" stop-opacity="0"/></radialGradient>
+                <clipPath id="mapclip"><rect x="0" y="0" width="540" height="510" rx="8"/></clipPath>
+              </defs>
+              <g clip-path="url(#mapclip)">
+                <rect width="540" height="510" fill="#eef4fc"/>
+                <rect width="540" height="510" fill="url(#mapgrid)"/>
+                <g fill="none" stroke="#b8cfe3" stroke-width="1.8" opacity=".8">
+                  <path d="M-52 160C38 117 89 151 146 99S285 79 323 31 444 32 596 -29"/>
+                  <path d="M-56 192C43 150 94 183 158 135S293 119 344 66 477 69 596 12"/>
+                  <path d="M-59 225C61 179 104 216 176 170S305 164 361 113 470 100 603 55"/>
+                  <path d="M-60 270C74 204 113 245 193 209S319 199 377 151 476 147 606 100"/>
+                  <path d="M-56 315C52 274 120 289 209 251S340 239 393 202 512 190 609 150"/>
+                  <path d="M-57 358C59 319 150 339 226 295S354 279 411 251 508 242 601 207"/>
+                  <path d="M-56 405C49 372 145 377 231 341S368 322 418 296 507 289 608 261"/>
+                </g>
+                <g stroke="#fff" stroke-width="8" fill="none" stroke-linecap="round" opacity=".93">
+                  <path d="M37 442 172 354 208 273 299 225 353 116 503 45"/>
+                  <path d="M-8 103 114 177 200 194 315 310 433 360 570 397"/>
+                  <path d="M150 -10 173 80 278 147 328 255 333 382 403 539"/>
+                </g>
+                <g stroke="#85aac8" stroke-width="1.9" fill="none" opacity=".85">
+                  <path d="M37 442 172 354 208 273 299 225 353 116 503 45"/>
+                  <path d="M-8 103 114 177 200 194 315 310 433 360 570 397"/>
+                  <path d="M150 -10 173 80 278 147 328 255 333 382 403 539"/>
+                </g>
+                <ellipse cx="306" cy="253" rx="146" ry="137" fill="url(#heatA)"/>
+                <ellipse cx="126" cy="108" rx="127" ry="119" fill="url(#heatB)"/>
+                <ellipse cx="431" cy="411" rx="145" ry="128" fill="url(#heatB)"/>
+                <g stroke="#3868c0" fill="#fff" stroke-width="3">
+                  <circle cx="173" cy="80" r="7"/><circle cx="278" cy="147" r="7"/><circle cx="328" cy="255" r="7"/><circle cx="333" cy="382" r="7"/>
+                  <circle cx="114" cy="177" r="6"/><circle cx="200" cy="194" r="6"/><circle cx="315" cy="310" r="7"/><circle cx="433" cy="360" r="6"/>
+                </g>
+                <g transform="translate(283 234)"><circle r="28" fill="#3168de" opacity=".15"/><circle r="15" fill="#3168de" opacity=".26"/><circle r="6" fill="#2e61c4"/><path d="M-10 0h-15M10 0h15M0-10v-15M0 10v15" stroke="#336acf" stroke-width="1.6"/></g>
+                <g transform="translate(35 407)"><rect width="147" height="53" rx="10" fill="#fff" stroke="#d5e1f0"/><circle cx="20" cy="18" r="4" fill="#2f6bdd"/><text x="32" y="21" fill="#315274" font-size="11.5" font-weight="700" font-family="sans-serif">SPATIAL DATA</text><path d="M18 38H125" stroke="#dbe7f3" stroke-width="5" stroke-linecap="round"/><path d="M18 38H91" stroke="#5d94e8" stroke-width="5" stroke-linecap="round"/></g>
+                <path d="M430 75h66M430 75v22" stroke="#628bb3" stroke-width="1.4" fill="none"/>
+                <text x="430" y="65" font-size="10" fill="#507299" font-family="monospace">N ↑</text>
+              </g>
+            </svg>
+            <div class="visual-bottom"><span class="visual-legend"><i class="legend-color cool"></i><i class="legend-color warm"></i><span data-i18n="hero.concept">Conceptual geospatial illustration · Not empirical results</span></span><span class="visual-index">FIG. 01</span></div>
+          </div>
+          <div class="floating-tag"><span class="floating-tag-symbol">✦</span> <span data-i18n="hero.bridge">FROM GEO DATA TO INTELLIGENT SYSTEMS</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="subtle-strip" aria-label="Research keywords">
+      <div class="wrap keyword-list"><span data-i18n="keywords.k1">REMOTE SENSING</span><span aria-hidden="true">✳</span><span data-i18n="keywords.k2">SPATIAL DATA SCIENCE</span><span aria-hidden="true">✳</span><span data-i18n="keywords.k3">EXPLAINABLE MACHINE LEARNING</span><span aria-hidden="true">✳</span><span data-i18n="keywords.k4">AI EXPLORATION</span></div>
+    </section>
+
+    <section class="section-padding about-section" id="about" aria-labelledby="about-title">
+      <div class="wrap section-grid">
+        <div class="section-label"><span class="section-index">01 /</span><span data-i18n="nav.about">About</span></div>
+        <div class="section-body"><h2 id="about-title" class="section-title" data-i18n="about.heading">Grounded in geography. Curious about intelligence.</h2>
+          <p class="body-large" data-i18n="about.p1">I am Zhilin Xue (薛知林), an undergraduate in Geographical Science at the School of Geographical Sciences, Changchun Normal University.</p>
+          <p data-i18n="about.p2">My current work examines how urban expansion relates to the spatial patterns of land surface temperature, and how multiple environmental risks can be characterized through remote sensing and GIS. I use interpretable machine learning to better understand the associations between landscape factors and urban thermal conditions.</p>
+          <p data-i18n="about.p3">I am also exploring a transition toward more fundamental computational research—particularly spatial intelligence, 3D scene understanding, multimodal learning, and intelligent agents. These are emerging interests, not claims of completed research.</p>
+          <div class="about-meta"><div><span class="mini-label" data-i18n="about.educationLabel">EDUCATION</span><strong data-i18n="about.education">Changchun Normal University</strong></div><div><span class="mini-label" data-i18n="about.focusLabel">CURRENT FOCUS</span><strong data-i18n="about.focus">GeoAI · Urban Environment · ML</strong></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-padding interests-section" id="interests" aria-labelledby="interests-title">
+      <div class="wrap"><div class="section-intro"><div class="section-label"><span class="section-index">02 /</span><span data-i18n="nav.interests">Interests</span></div><div><h2 class="section-title" id="interests-title" data-i18n="interests.heading">Two directions, one learning journey.</h2><p class="section-subtitle" data-i18n="interests.sub">I am building on an established geospatial foundation while actively discovering new areas in computer science.</p></div></div>
+        <div class="interest-grid">
+          <article class="interest-card primary-card"><div class="interest-header"><span class="interest-num">TRACK 01</span><span class="interest-glyph">↗</span></div><div class="interest-symbol geosymbol" aria-hidden="true"><span></span><span></span><span></span></div><h3 data-i18n="interests.oneTitle">Geospatial & Urban Intelligence</h3><p data-i18n="interests.oneDesc">Remote sensing, urban spatial analytics, 3D GIS, explainable modeling, and learning from complex spatial environments.</p><div class="chip-row"><span>GeoAI</span><span>3D GIS</span><span>Urban Computing</span></div><span class="interest-status" data-i18n="interests.current">CURRENT RESEARCH FOUNDATION</span></article>
+          <article class="interest-card exploration-card"><div class="interest-header"><span class="interest-num">TRACK 02</span><span class="interest-glyph">↗</span></div><div class="interest-symbol aisymbol" aria-hidden="true"><span></span><span></span><span></span><span></span></div><h3 data-i18n="interests.twoTitle">AI Methods & Intelligent Systems</h3><p data-i18n="interests.twoDesc">An exploratory interest in multimodal learning, spatial reasoning, embodied intelligence, and model-centric research.</p><div class="chip-row"><span>Multimodal AI</span><span>Spatial Reasoning</span><span>Embodied AI</span></div><span class="interest-status exploring" data-i18n="interests.exploring">EXPLORING / LEARNING</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-padding project-section" id="projects" aria-labelledby="projects-title">
+      <div class="wrap"><div class="section-intro"><div class="section-label"><span class="section-index">03 /</span><span data-i18n="nav.projects">Research</span></div><div><h2 id="projects-title" class="section-title" data-i18n="projects.heading">Selected research & projects.</h2><p class="section-subtitle" data-i18n="projects.sub">A selection of work spanning urban environments, geospatial analytics, and research-oriented educational tools.</p></div></div>
+      <div class="project-list">
+        <article class="project-card"><div class="project-index"><span>01</span><div class="project-art art-heat" aria-hidden="true"><span class="art-sun"></span><span class="art-mosaic"></span></div></div><div class="project-detail"><div class="project-label"><span class="status-dot"></span><span data-i18n="projects.p1status">ONGOING RESEARCH</span></div><h3 data-i18n="projects.p1title">Urban Expansion & Thermal Spatial Patterns</h3><p data-i18n="projects.p1desc">A Changchun case study comparing multi-period summer land surface temperature composites with changes in the urban landscape. Random Forest and SHAP are used to explore associations between spatial factors and thermal patterns.</p><div class="chip-row muted"><span>LST</span><span>Remote Sensing</span><span>Random Forest</span><span>SHAP</span></div></div><span class="project-arrow" aria-hidden="true">↗</span></article>
+        <article class="project-card"><div class="project-index"><span>02</span><div class="project-art art-flood" aria-hidden="true"><span class="art-layer layer-a"></span><span class="art-layer layer-b"></span><span class="art-layer layer-c"></span></div></div><div class="project-detail"><div class="project-label"><span class="status-dot"></span><span data-i18n="projects.p2status">RESEARCH PROJECT</span></div><h3 data-i18n="projects.p2title">Compound Urban Heat–Flood Risk & Exposure</h3><p data-i18n="projects.p2desc">Integrating thermal risk, runoff-related spatial indicators, and building-use proxies to identify urban areas where multiple environmental pressures overlap.</p><div class="chip-row muted"><span>GIS</span><span>Risk Mapping</span><span>Exposure Proxies</span><span>Spatial Analysis</span></div></div><span class="project-arrow" aria-hidden="true">↗</span></article>
+        <article class="project-card"><div class="project-index"><span>03</span><div class="project-art art-education" aria-hidden="true"><span class="gridcell g1"></span><span class="gridcell g2"></span><span class="gridcell g3"></span><span class="gridcell g4"></span><span class="gridcell g5"></span><span class="gridcell g6"></span></div></div><div class="project-detail"><div class="project-label"><span class="status-dot gray"></span><span data-i18n="projects.p3status">EDUCATION / TECHNICAL PROJECT</span></div><h3 data-i18n="projects.p3title">Urban Spatial Planning Scenario Simulation</h3><p data-i18n="projects.p3desc">A geography-learning prototype where learners explore the potential effects of land-use and infrastructure choices. My contribution centers on GIS data processing, spatial indicators, and map-ready data outputs.</p><div class="chip-row muted"><span>Geospatial Data</span><span>Scenario Design</span><span>GeoTIFF</span><span>GeoJSON</span></div></div><span class="project-arrow" aria-hidden="true">↗</span></article>
+      </div>
+      <p class="section-footnote" data-i18n="projects.note">Visual motifs on this page are illustrative and do not reproduce scientific results. Details and supporting material are available upon request.</p>
+      </div>
+    </section>
+
+    <section class="section-padding academic-section" id="academic" aria-labelledby="academic-title">
+      <div class="wrap"><div class="section-intro"><div class="section-label"><span class="section-index">04 /</span><span data-i18n="nav.academic">Academic</span></div><div><h2 class="section-title" id="academic-title" data-i18n="academic.heading">Academic activities.</h2><p class="section-subtitle" data-i18n="academic.sub">Conference activity is labeled by its actual status. Abstract acceptance is not presented as a full-paper publication.</p></div></div>
+      <div class="academic-list">
+        <article class="academic-row"><div class="academic-year">2026</div><div><span class="academic-type" data-i18n="academic.a1type">ACCEPTED CONFERENCE ABSTRACT</span><h3>GeoSus 2026</h3><p data-i18n="academic.a1desc">Research abstract on the differentiated effects of road network characteristics on the urban heat island effect in Changchun, China.</p></div><span class="outcome" data-i18n="academic.accepted">Abstract accepted</span></article>
+        <article class="academic-row"><div class="academic-year">2026</div><div><span class="academic-type" data-i18n="academic.a2type">INVITED ORAL PRESENTATION</span><h3 data-i18n="academic.a2title">Jilin Geographical Society Academic Annual Meeting</h3><p data-i18n="academic.a2desc">An invited oral presentation opportunity related to urban thermal spatial analysis.</p></div><span class="outcome" data-i18n="academic.invited">Invited</span></article>
+      </div>
+      </div>
+    </section>
+
+    <section class="section-padding skills-section" id="skills" aria-labelledby="skills-title">
+      <div class="wrap"><div class="section-intro"><div class="section-label"><span class="section-index">05 /</span><span data-i18n="skills.label">Toolkit</span></div><div><h2 class="section-title" id="skills-title" data-i18n="skills.heading">Methods & tools.</h2><p class="section-subtitle" data-i18n="skills.sub">Research tools I have used, alongside areas I am actively looking to learn.</p></div></div>
+      <div class="skill-grid"><div class="skill-block"><span class="skill-icon">01</span><h3 data-i18n="skills.geo">Geospatial analysis</h3><p>GIS · Remote Sensing · Raster Processing · GeoTIFF · GeoJSON</p></div><div class="skill-block"><span class="skill-icon">02</span><h3 data-i18n="skills.ml">Data & modeling</h3><p>Python · Random Forest · SHAP · Spatial Indicators</p></div><div class="skill-block"><span class="skill-icon">03</span><h3 data-i18n="skills.research">Research practice</h3><p data-i18n="skills.researchDesc">Data integration · Visualization · Experimental interpretation · Academic presentations</p></div><div class="skill-block new-skill"><span class="skill-icon">↗</span><h3 data-i18n="skills.learning">Areas I'm exploring</h3><p data-i18n="skills.learningDesc">Deep learning · 3D spatial intelligence · Multimodal and embodied AI</p></div></div>
+      </div>
+    </section>
+
+    <section class="contact-section section-padding" id="contact" aria-labelledby="contact-title">
+      <div class="wrap contact-inner"><div><div class="contact-kicker" data-i18n="contact.kicker">OPEN TO LEARNING & COLLABORATION</div><h2 id="contact-title" data-i18n="contact.heading">Let's explore the next question.</h2><p data-i18n="contact.desc">I welcome conversations about research visits, student collaborations, and scientific questions at the intersection of geospatial data and AI.</p></div><div class="contact-actions"><a href="https://github.com/Cola2233" class="button button-white" target="_blank" rel="noopener noreferrer"><span data-i18n="contact.github">Explore my GitHub</span><span aria-hidden="true">↗</span></a><a href="cv.html" class="text-link light-link" data-internal-link><span data-i18n="contact.cv">View academic CV</span> <span aria-hidden="true">↗</span></a></div></div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="wrap footer-inner"><div><strong>Zhilin Xue <span class="footer-cname">/ 薛知林</span></strong><span data-i18n="footer.tag">Geography-informed. AI-curious.</span></div><div class="footer-links"><a href="https://github.com/Cola2233" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="#top" data-i18n="footer.top">Back to top ↑</a></div><span class="copyright">© <span id="year">2026</span> Zhilin Xue</span></div></footer>
+</body>
+</html>
